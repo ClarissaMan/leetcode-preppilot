@@ -190,7 +190,7 @@ The mobile app instead provides a convenient way to mark a problem as completed 
 
 Users can also generate another coding plan directly from the mobile app.
 
-The mobile version uses a simplified plan-generation workflow: it only generates **3 problems from random topics**.
+The mobile version uses a simplified plan-generation workflow: it generates **3 problems from random topics by default**.
 
 This differs from the web application, where users have more control over plan generation. (i.e. On web app, users can select specific topics, choose the number of problems to generate, or generate a plan based on those selected preferences.)
 
@@ -339,7 +339,7 @@ After starting the web application:
 jac run
 ```
 
-1. Open **Today's Plan**.
+1. Open Today's Plan.
 2. Review the recommended problems.
 3. Open a problem.
 4. Practice the problem on LeetCode through "Open problem on LeetCode".
