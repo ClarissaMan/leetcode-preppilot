@@ -10,8 +10,8 @@ kind = "web-app"
 entry-point = "web.main"
 
 [apps.mobile]
-kind = "web-app"
-entry-point = "mobile.main"
+kind = "cli"
+entry-point = "mobile.preview"
 
 [apps.mobile.test]
 directories = ["core/jacyac"]
