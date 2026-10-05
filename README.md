@@ -325,7 +325,13 @@ Recommendations Adapt
 
 PrepPilot connects planning with reflection: your confidence and practice history influence what you practice next. This makes it useful for revisiting difficult topics and building a more deliberate interview preparation routine.
 
-Each interface supports a different part of that routine. The web application handles detailed planning and reflection, the mobile interface provides quick progress updates, and the CLI keeps the daily plan accessible while working in a terminal.
+Each interface supports a different part of that routine.
+
+The web application provides the most complete experience. Users can view and customize coding plans, browse the problem library, practice problems through LeetCode, and record detailed reflections such as confidence, practice results, and notes. These updates directly influence future recommendations.
+
+The mobile app is designed for quick actions when users are away from their laptop. It lets users view today’s plan, mark problems as completed, and generate another plan, while leaving detailed reflection and editing to the web.
+
+The CLI supplements both interfaces by providing a lightweight terminal-based way to view the current plan and mark problems complete. Because it uses the same backend data, changes made through the CLI are immediately reflected on the web and mobile interfaces.
 
 The project combines persistent Jac graph data, rule-based recommendations, a personal problem library, and shared progress across interfaces in one codebase, so a user's practice history affects future plans regardless of whether they interact with the application through the web, mobile app, or CLI.
 
@@ -374,10 +380,3 @@ To mark a problem as complete (Replace `33` with the ID of a problem in the curr
 ```bash
 jac run cli -- complete 33
 ```
-
----
-
-## Repository
-
-GitHub:
-https://github.com/ClarissaMan/leetcode-preppilot
